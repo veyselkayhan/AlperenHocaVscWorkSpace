@@ -80,7 +80,7 @@ main{
 
 
 .subcontainer{
-    height: 3000px;
+    
     width: 50%;
     flex :9;
     background-color: bisque;
@@ -94,11 +94,23 @@ main{
 }
 
 .box{
-    height: 33%;
+    padding: 10px;
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+
+.box div{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .images{
@@ -108,18 +120,34 @@ main{
 }
 .videos{
     background-color: plum;
+
 }
 .about{
     background-color: lime;
+    height: 250px;
+    padding: 10px;
 }
 footer{
-    border: 2px solid green;
-    height: 200px;
+    
     display: flex;
     justify-content: space-between;
-    padding: 35px;
+    padding: 35px 35px;
 }
 
-footer div{
-    border: 2px solid;
+.h3{
+ 
 }
+
+.myFooter div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myFooter div ul {
+ list-style: none;
+}
+
+.myFooter div ul li  {
+    margin-top: 5px;
+   }

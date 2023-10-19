@@ -1,0 +1,102 @@
+.div1{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    overflow: scroll;
+
+}
+.div2{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.container{
+    background-color: bisque;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.container2{
+    background-color: blue;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.box{
+    width: 20%;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.box-child{
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+}
+.box.box1{
+   
+    background-color: purple;
+}
+
+.box3{
+    background-color: green;
+}
+
+.box4{
+    background-color: gray;
+}
+
+.box5{
+    background-color: brown;
+}
+
+.newbox2{
+    width: 30%;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.box6{
+   
+    background-color: bisque;
+}
+.box7{
+    background-color: red;
+}
+
+.box8{
+    background-color: green;
+}
+
+.box9{
+    background-color: gray;
+}
+.box10{
+    background-color: blueviolet;
+}
+.box11{
+    background-color:palegreen;
+}
+.box12{
+    background-color: hotpink;
+}
+.box13{
+    background-color: purple;
+}
+.box14{
+    background-color: khaki;
+}
+
+
